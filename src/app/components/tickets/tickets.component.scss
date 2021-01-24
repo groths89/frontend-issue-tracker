@@ -1,0 +1,19 @@
+.container > table {
+    width: 100%;
+    position: relative;
+    border-collapse: collapse;
+}
+
+tr.th-b-bottom {
+    border-bottom: 1px solid #000000;
+}
+
+tr.td-b-bottom {
+    height: 30px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 15px 10px;
+}
+
+td.td-pl {
+    padding-left: 5px;
+}

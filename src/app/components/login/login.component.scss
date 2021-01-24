@@ -1,0 +1,77 @@
+.login-form {
+    width: 20em;
+    min-height: 20em;
+    margin: 150px auto;
+    border: 1px solid #e0e0e0;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 0px 7px 1px #e0e0e0; 
+}
+
+.login-form > .header {
+    width: 98.8%;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 14pt;
+    font-weight: 300;
+    padding: 11px 2px;
+    display: block;
+    float: left;
+    text-align: center;
+    background: #ffd92d;
+    color: #000000;
+    box-shadow: 0px 0px 7px grey;
+    margin-bottom: 1em;
+}
+
+.login-form > form > .username-div, .password-div {
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    float: left; 
+}
+
+.login-form > form > .username-div > input, label {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    padding: 1em 0;
+}
+
+.login-form > form > .password-div > input, label {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    padding: 1em 0;
+}
+
+.btn-row {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #e0e0e0;
+    margin: 4px 0 0;
+    display: block;
+    float: left;
+}
+
+button.btn.btn-primary {
+    background: #ff452d;
+    color: #ffffff;
+    border: 1px solid #ff452d;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: 100;
+    padding: 11px 7px;
+    margin: 2px 7px 7px 2px;
+    cursor: pointer;
+    display: block;
+    float: right;
+}
+
+button.btn-primary:hover {
+    background: #ffffff;
+    color: #ff452d;
+}

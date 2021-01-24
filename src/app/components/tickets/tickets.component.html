@@ -1,0 +1,16 @@
+<div class="container" style="min-height: 100%;">
+    <table class="table table-bordered table-inverse">
+        <tr class="th-b-bottom">
+            <th>Ticket Name</th>
+            <th>Description</th>
+            <th>Requester</th>
+            <th></th>
+        </tr>
+        <tr class="td-b-bottom" *ngFor="let ticket of tickets">
+            <td class="td-pl">{{ticket.subjectTitle}}</td>
+            <td class="td-pl">{{ticket.bodyDescription}}</td>
+            <td class="td-pl">{{ticket.createdBy}}</td>
+            <td class="td-pl"><button (click)="deleteTicket();">DELETE</button></td>
+        </tr>
+    </table>
+</div>
